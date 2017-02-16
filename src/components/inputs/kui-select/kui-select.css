@@ -1,0 +1,37 @@
+.kui-select {
+	position: relative;
+}
+.kui-select .kui-select-results {
+    position: absolute;
+    top: 25px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    margin-top: 3px;
+    max-height: 100px;
+    overflow-y: scroll;
+}
+.kui-select .kui-select-result{
+	padding: 2px 5px;
+	margin: 0;
+	padding: 2px;
+}
+.kui-select .kui-select-result.kui-active, 
+.kui-select .kui-select-result:hover{
+	background: rgb(213, 237, 252);
+}
+.kui-select .kui-select-input {
+	height: 20px;
+    width: 200px;
+    font-size: inherit;
+    padding: 2px 5px;
+}
+.kui-select .kui-select-clear {
+	position: absolute;
+    right: -6px;
+    top: 31%;
+    cursor: pointer;
+    height: 40%;
+}
